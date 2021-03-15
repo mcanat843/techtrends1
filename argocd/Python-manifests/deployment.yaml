@@ -21,7 +21,7 @@ spec:
         app: python-techtrends
     spec:
       containers:
-      - image: mert436/techtrends 
+      - image: mert436/techtrends:latest
         imagePullPolicy: IfNotPresent
         name: python-techtrends
         resources:
